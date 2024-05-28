@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas de Amor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="inicio">
+        <div class="menu container">
+            <a href="#inicio" class="logo">Huellitas de Amor</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="imagenes/menu.png" alt="menu-icono" class="menu-icono">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#adopcion">Adopción</a></li>
+                    <li><a href="#importancia">Importancia</a></li>
+                    <li><a href="#contactanos">Contáctanos</a></li>
+                    <li><a href="#encuesta">Encuesta</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Importancia de <span>esterilizar a</span><br>los perritos</h1>
+                <p>
+                    ¿Qué es la esterilización? Beneficios de la esterilización para las mascotas:
+                    Hembras: Previene el cáncer de mama y de ovarios, las infecciones uterinas y el celo.
+                    Machos: Previene el cáncer testicular, las enfermedades prostáticas y reduce la agresividad.
+                </p>
+                <div class="buttons">
+                    <a href="#informacion" class="btn-1">Información</a>
+                    <a href="#adopcion" class="btn-1">de perritos</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="popular container" id="importancia">
+        <h2>Cuidemos a los peluditos</h2>
+        <p>
+            Beneficios de la esterilización para la comunidad: Controla la población de animales y reduce la sobrepoblación en refugios.
+            Disminuye el número de animales abandonados y maltratados. Ayuda a prevenir la transmisión de enfermedades.
+            Tipos de esterilización: Quirúrgica y química.
+        </p>
+        <div class="popular-content">
+            <img src="imagenes/images.jpeg" alt="Cuidemos a los peluditos">
+        </div>
+    </section>
+
+    <main class="product container" id="adopcion">
+        <h2>Perros que necesitan un hogar</h2>
+        <div class="product-content">
+            <div class="product-1">
+                <img src="imagenes/Cachorros-1.jpg" alt="Cachorros">
+                <div class="product-txt">
+                    <h3>Donaciones</h3>
+                    <div class="price">
+                        <p>Gratis, NO COMPRES ADOPTA</p>
+                        <a href="#" class="btn-2">Donaciones</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-1">
+                <img src="imagenes/vacunas-para-perros-768x512.jpg" alt="Vacunas">
+                <div class="product-txt">
+                    <h3>Vacunas</h3>
+                    <div class="price">
+                        <p>Vacuna a tu mascota</p>
+                        <a href="#" class="btn-2">Más info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="contact container" id="contactanos">
+        <div class="contact-content">
+            <h3>Contáctanos para agendar tu cita</h3>
+            <form>
+                <input type="email" placeholder="Escribe tu correo">
+                <input type="text" placeholder="Escribe tu nombre">
+                <input type="submit" class="btn-3" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <section class="survey container" id="encuesta">
+        <h2>Encuesta de Adopción</h2>
+        <form>
+            <label for="age">¿Cuántos años tienes?</label>
+            <input type="text" id="age" name="age" placeholder="Escribe tu edad">
+            
+            <label for="location">¿Dónde vives?</label>
+            <input type="text" id="location" name="location" placeholder="Escribe tu lugar de residencia">
+
+            <label for="housing">¿El lugar donde vives es rentado o prestado?</label>
+            <select id="housing" name="housing">
+                <option value="rentada">Rentado</option>
+                <option value="prestada">Prestado</option>
+                <option value="propia">Propia</option>
+            </select>
+
+            <label for="environment">¿El lugar es campo abierto o cerrado?</label>
+            <select id="environment" name="environment">
+                <option value="abierto">Campo abierto</option>
+                <option value="cerrado">Campo cerrado</option>
+            </select>
+
+            <label for="reason">¿Por qué te gustaría adoptar?</label>
+            <textarea id="reason" name="reason" rows="3" placeholder="Escribe tu razón"></textarea>
+
+            <label for="sponsor">¿Te gustaría apadrinar algún perrit@ para sus vacunas o necesidades básicas?</label>
+            <select id="sponsor" name="sponsor">
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="pets">¿Cuántos perrit@s tienes en tu hogar?</label>
+            <input type="number" id="pets" name="pets" placeholder="Escribe el número de perritos">
+
+            <label for="financial">¿Estás económicamente bien?</label>
+            <select id="financial" name="financial">
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+
+            <input type="submit" class="btn-3" value="Enviar Encuesta">
+        </form>
+    </section>
+
+    <footer class="footer container">
+        <div class="link">
+            <a href="#inicio" class="logo">Huellitas de Amor</a>
+        </div>
+        <div class="link">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#adopcion">Adopción</a></li>
+                <li><a href="#importancia">Importancia</a></li>
+                <li><a href="#contactanos">Contáctanos</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
